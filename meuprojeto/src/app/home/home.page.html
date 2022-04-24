@@ -7,6 +7,10 @@
 </ion-header>
 
 <ion-content [fullscreen]="true">
+<br/>
+<ion-button color="warning" (click)="apresentarActionSheet()">Acionar o action</ion-button>
+<br/>
+<ion-button color="success" (click)="apresentarAlert()">Alerta</ion-button>
   <ion-header collapse="condense">
     <ion-toolbar>
       <ion-title size="large">Blank</ion-title>
@@ -14,7 +18,15 @@
   </ion-header>
 
   <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+    <strong>Meu primeeiro projeto no IONIC</strong>
+    <p>Iniciando o Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
   </div>
 </ion-content>
+
+<ion-footer>
+  <ion-toolbar color="danger">
+    <ion-title>
+      Rodapé
+    </ion-title>
+  </ion-toolbar>
+</ion-footer>
